@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="title icon" type="image/png" href="images/camera-icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="lightbox.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Gallery</h1>
+        <nav>
+          <a href="" id="menu-icon"></a> 
+          <ul>
+            <li><a href="#PC Games">PC Games</a></li>
+            <li><a href="#Nature">Nature</a></li>
+            <li><a href="#Wildlife">Wildlife</a></li>
+            <li><a href="#Sports">Sports</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- End Header -->
+      <section>
+        <a name="PC Games"></a>
+        <h2>PC Games</h2>
+        <div class="container">
+          <img src="images/pc1.png" alt="PC Games1" class="gallery-img">
+          <img src="images/pc2.jpg" alt="PC Games2" class="gallery-img">
+          <img src="images/pc3.png" alt="PC Games3" class="gallery-img">
+          <img src="images/pc4.png" alt="PC Games4" class="gallery-img">
+          <img src="images/pc5.jpg" alt="PC Games5" class="gallery-img">
+          <img src="images/pc6.png" alt="PC Games6" class="gallery-img">
+        </div>
+      </section>
+      <!-- End of PC Games Section -->
+      <section>
+          <a name="Nature"></a>
+          <h2>Nature</h2>
+          <div class="container">
+              <img src="images/Nature1.jpg" alt="Nature1" class="gallery-img">
+              <img src="images/Nature2.jpg" alt="Nature2" class="gallery-img">
+              <img src="images/Nature3.jpg" alt="Nature3" class="gallery-img">
+              <img src="images/Nature4.jpg" alt="Nature4" class="gallery-img">
+              <img src="images/Nature5.jpg" alt="Nature5" class="gallery-img">
+              <img src="images/Nature6.jpg" alt="Nature6" class="gallery-img">
+          </div>
+      </section>
+      <!-- End of Nature Section -->
+      <section>
+          <a name="Wildlife"></a>
+          <h2>Wildlife</h2>
+          <div class="container">
+              <img src="images/Wildlife1.jpg" alt="Wildlife1" class="gallery-img">
+              <img src="images/Wildlife2.jpg" alt="Wildlife2" class="gallery-img">
+              <img src="images/Wildlife3.jpg" alt="Wildlife3" class="gallery-img">
+              <img src="images/Wildlife4.jpg" alt="Wildlife4" class="gallery-img">
+              <img src="images/Wildlife5.jpg" alt="Wildlife5" class="gallery-img">
+              <img src="images/Wildlife6.jpg" alt="Wildlife6" class="gallery-img">
+          </div>
+      </section>
+      <!-- End of Wildlife Section -->
+      <section>
+        <a name="Sports"></a>
+        <h2>Sports</h2>
+        <div class="container">
+            <img src="images/Sports1.jpg" alt="Sports1" class="gallery-img">
+            <img src="images/Sports2.jpg" alt="Sports2" class="gallery-img">
+            <img src="images/Sports3.jpg" alt="Sports3" class="gallery-img">
+            <img src="images/Sports4.jpg" alt="Sports4" class="gallery-img">
+            <img src="images/Sports5.jpg" alt="Sports5" class="gallery-img">
+            <img src="images/Sports6.jpg" alt="Sports6" class="gallery-img">
+        </div>
+      </section>
+      <!-- End of Sports Section -->
+      <button onclick="goToTop()" id="topBtn" title="Go to top of page">Top of Page</button>
+      <footer class="footer">
+        <p>
+          Copyright &copy; 2025, Pabla Navtej Singh
+        </p>
+      </footer>
+    </div>
+    
+    <!-- Lightbox Container -->
+    <div id="lightbox" class="lightbox">
+      <span class="close-btn" id="close-btn">&times;</span>
+      <img id="lightbox-img" src="">
+    </div>
+
+    <script src="script.js"></script>
+    <script src="lightbox.js"></script>
+  </body>
+</html>
